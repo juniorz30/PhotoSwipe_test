@@ -3,7 +3,7 @@ var AJAX_NS = 'ajax',
 	_removeAjaxCursor = function() {
 		if(_ajaxCur) {
 			$(document.body).removeClass(_ajaxCur);
-		}
+		}//ajax versie
 	},
 	_destroyAjaxRequest = function() {
 		_removeAjaxCursor();
